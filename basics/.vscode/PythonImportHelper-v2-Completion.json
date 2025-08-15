@@ -1,0 +1,47 @@
+[
+    {
+        "label": "Pessoa",
+        "kind": 6,
+        "importPath": "python.main",
+        "description": "python.main",
+        "peekOfCode": "class Pessoa:\n    def __init__(self) -> None:\n        self.name = \"Gabriel\"\n        self.age = 32\n        self.job = \"Software Developer\"\n    def say_my_name(self):\n        return f\"My name is {self.name}\"\nperson = Pessoa()\n# print(person.name)\n# print(person.age)",
+        "detail": "python.main",
+        "documentation": {}
+    },
+    {
+        "label": "person",
+        "kind": 5,
+        "importPath": "python.main",
+        "description": "python.main",
+        "peekOfCode": "person = Pessoa()\n# print(person.name)\n# print(person.age)\n# print(person.job)\n# print(person.say_my_name())\n# name = \"lucas\"\nfruits = [\"apple\", \"orange\", \"pineapple\"]\nnames = [\"João\", \"Salomão\", \"Simão\", \"Conceição\"]\n# name.lower()\nage = 32",
+        "detail": "python.main",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "python.main",
+        "description": "python.main",
+        "peekOfCode": "fruits = [\"apple\", \"orange\", \"pineapple\"]\nnames = [\"João\", \"Salomão\", \"Simão\", \"Conceição\"]\n# name.lower()\nage = 32\nfor name in names:\n    print(name.replace(\"ã\",\"a\").replace(\"ç\",\"c\").lower())\n# print(age.to_bytes())\n# if age:\n#     print(\"É int\")\n# else:",
+        "detail": "python.main",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "python.main",
+        "description": "python.main",
+        "peekOfCode": "names = [\"João\", \"Salomão\", \"Simão\", \"Conceição\"]\n# name.lower()\nage = 32\nfor name in names:\n    print(name.replace(\"ã\",\"a\").replace(\"ç\",\"c\").lower())\n# print(age.to_bytes())\n# if age:\n#     print(\"É int\")\n# else:\n#     print(\"Não é int\")",
+        "detail": "python.main",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "python.main",
+        "description": "python.main",
+        "peekOfCode": "age = 32\nfor name in names:\n    print(name.replace(\"ã\",\"a\").replace(\"ç\",\"c\").lower())\n# print(age.to_bytes())\n# if age:\n#     print(\"É int\")\n# else:\n#     print(\"Não é int\")\n# print(name.replace(\"L\", \"B\"))\n# print(name.upper())",
+        "detail": "python.main",
+        "documentation": {}
+    }
+]
